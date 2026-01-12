@@ -10,7 +10,11 @@
 #     print(col)
 
 
-color = [1, 3, 2]
-#color.remove('azul')
-color.pop(1)
-print(color)
+# color = [1, 3, 2]
+# #color.remove('azul')
+# color.pop(1)
+# print(color)
+
+# a = "Hola"
+# b = "Mundo"
+# print(a + " " + b) 
