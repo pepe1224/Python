@@ -18,3 +18,20 @@
 # a = "Hola"
 # b = "Mundo"
 # print(a + " " + b) 
+
+
+class Hucha:
+    def __init__(self):
+        self.__dinero = 0
+
+    def meter_dinero(self, cantidad):
+        if cantidad > 0:
+            self.__dinero += cantidad
+    
+    def ver_dinero(self):
+        return self.__dinero
+    
+hucha = Hucha
+hucha.meter_dinero(10)
+print(hucha.ver_dinero())
+assert hucha.ver_dinero()
