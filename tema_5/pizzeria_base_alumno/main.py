@@ -38,12 +38,6 @@ def main():
                     pizza.add_ingrediente(vegetal)
                 else:
                     print("Preparando tu pizza...")
-
-
-            # crear ingrediente
-
-            # añadir ingrediente a la pizza
-
             """
                 Ingredientes:
                 1. Queso
