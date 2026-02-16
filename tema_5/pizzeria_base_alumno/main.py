@@ -16,6 +16,7 @@ def main():
         # crear pizza
         if opcion == "1":
             pizza = Pizza("Personalizada")
+
             # TODO: añadir ingredientes
             # muestra al usuario opciones para que elija qué ingredientes quiere añadir a su pizza, 
             # hasta que elija la opción de terminar pizza
@@ -23,7 +24,22 @@ def main():
             
             while True:
                 pizzeria.mostrar_menu_ingredientes()
-                opcion_ingredientes = input("Elige ingrediente")
+                opcion_ingredientes = int(input("Elige ingrediente: "))
+                if opcion_ingredientes == 0:
+                    break
+                elif opcion_ingredientes == 1:
+                    queso = Queso("🧀")
+                    pizza.add_ingrediente(queso)
+                elif opcion_ingredientes == 2:
+                    carne = Carne("🥩")
+                    pizza.add_ingrediente(carne)
+                elif opcion_ingredientes == 3:
+                    vegetal = Vegetal("🥬")
+                    pizza.add_ingrediente(vegetal)
+                else:
+                    print("Preparando tu pizza...")
+
+
             # crear ingrediente
 
             # añadir ingrediente a la pizza
@@ -34,14 +50,12 @@ def main():
                 2. Carne
                 3. Vegetal
                 0. Terminar pizza
-                Elige ingrediente: 1
 
                 Ingredientes:
                 1. Queso
                 2. Carne
                 3. Vegetal
                 0. Terminar pizza
-                Elige ingrediente: 0
             """
             pedido.add_pizza(pizza)
         elif opcion == "2":

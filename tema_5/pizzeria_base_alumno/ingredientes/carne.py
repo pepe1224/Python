@@ -1,6 +1,5 @@
 from ingredientes.ingrediente import Ingrediente
 
 class Carne(Ingrediente):
-    """TODO: completar clase Carne"""
-    def __init__(self, nombre):
+    def __init__(self, nombre="Carne"):
         super(). __init__(nombre, "🥩")
