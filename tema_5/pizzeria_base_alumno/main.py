@@ -16,6 +16,7 @@ def main():
         # crear pizza
         if opcion == "1":
             pizza = Pizza("Personalizada")
+        
 
             # TODO: añadir ingredientes
             # muestra al usuario opciones para que elija qué ingredientes quiere añadir a su pizza, 
