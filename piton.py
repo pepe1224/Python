@@ -35,7 +35,12 @@
 # hucha.meter_dinero(10)
 # print(hucha.ver_dinero())
 # assert hucha.ver_dinero()
+milista= []
+mitupla = (1,2,3)
+milista += mitupla
+print(milista)
 
+mitupla.append(milista)
 
 
 
@@ -43,17 +48,17 @@
 # var = input("hola, tu nombre es: ")
 # opc = input(var + ", escoge una opcion: ")
 # print(opc)
-class Pizza():
-   def __init__(self, pepino, tomate, cebolla):
-      self.pepino = pepino
-      self.tomate = tomate
-      self.cebolla = cebolla
+# class Pizza():
+#    def __init__(self, pepino, tomate, cebolla):
+#       self.pepino = pepino
+#       self.tomate = tomate
+#       self.cebolla = cebolla
     
     
-    def fetuchini():
-        var = int(input("escoge un numero del 0 al 3: "))
-        while True:
-          if var == 0:
-             break
-          elif var == 1:
-             pass
+#     def fetuchini():
+#         var = int(input("escoge un numero del 0 al 3: "))
+#         while True:
+#           if var == 0:
+#              break
+#           elif var == 1:
+#              pass
