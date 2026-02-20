@@ -15,7 +15,7 @@ class Pizza:
 
         for ingredientes in self.__ingredientes:
             if ingredientes.get_simbolo() not in aux_ingredientes:
-                aux_ingredientes.join(ingredientes.get_simbolo())
+                aux_ingredientes.append(ingredientes.get_simbolo())
 
         lista_ingredientes = []
         if(len(aux_ingredientes) == 1):
@@ -26,11 +26,11 @@ class Pizza:
             lista_ingredientes = [aux_ingredientes[0], aux_ingredientes[1], aux_ingredientes[2]]
 
         return f"""
-                  🍞🍞🍞🍞🍞🍞🍞🍞🍞🍞
+                  🍞🍞🍞🍞🍞🍞🍞🍞🍞
                 🍞🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍞
-               🍞🍅🍅{lista_ingredientes}🍅🍞
-              🍞🍅                        🍅🍞
-             🍞🍅                          🍅🍞
+               🍞🍅🍅{lista_ingredientes[0]*2}🍅🍅🍅{lista_ingredientes[2]*2}🍞
+              🍞🍅{lista_ingredientes[1]*2}🍅🍅🍅{lista_ingredientes[0]*2}🍞
+             🍞🍅{lista_ingredientes[2]*2}🍅🍅{lista_ingredientes[1]*2}🍅🍞
             🍞🍅                           🍅🍞
             🍞🍅                           🍅🍞
             🍞🍅                           🍅🍞
@@ -49,4 +49,25 @@ class Pizza:
                  🍞🍅🍅🍅🍅🍅🍅🍅🍅🍅🍞
                     🍞🍞🍞🍞🍞🍞🍞🍞🍞
         """
-            
+            #        🍞🍞🍞🍞🍞🍞🍞🍞🍞🍞
+            #     🍞🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍞
+            #    🍞🍅🍅{lista_ingredientes}🍅🍞
+            #   🍞🍅                        🍅🍞
+            #  🍞🍅                          🍅🍞
+            # 🍞🍅                           🍅🍞
+            # 🍞🍅                           🍅🍞
+            # 🍞🍅                           🍅🍞
+            # 🍞🍅                           🍅🍞
+            # 🍞🍅                           🍅🍞
+            # 🍞🍅                           🍅🍞
+            # 🍞🍅                           🍅🍞
+            # 🍞🍅                           🍅🍞
+            # 🍞🍅                           🍅🍞
+            # 🍞🍅                           🍅🍞
+            # 🍞🍅                           🍅🍞
+            # 🍞🍅                           🍅🍞
+            #  🍞🍅                         🍅🍞
+            #   🍞🍅                       🍅🍞
+            #    🍞🍅                     🍅🍞
+            #      🍞🍅🍅🍅🍅🍅🍅🍅🍅🍅🍞
+            #        🍞🍞🍞🍞🍞🍞🍞🍞🍞🍞
