@@ -21,7 +21,7 @@ def main():
 
     while True:
         pizzeria.mostrar_menu()
-        opcion = input("hola " + var + ", Escoge una opción: ")
+        opcion = input("hola " + var + ", Crea tu pizza: ")
 
         # crear pizza
         if opcion == "1":
