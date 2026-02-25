@@ -29,23 +29,23 @@ class Pizza:
                   🍞🍞🍞🍞🍞🍞🍞🍞🍞🍞
                 🍞🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍞
                🍞🍅🍅{lista_ingredientes[0]*2}🍅🍅🍅{lista_ingredientes[2]*3}🍅🍞
-              🍞🍅{lista_ingredientes[1]*2}🍅🍅🍅{lista_ingredientes[0]*3}🍅🍅🍅🍞
-             🍞🍅{lista_ingredientes[2]*2}🍅🍅{lista_ingredientes[1]*2}🍅🍅🍅🍅🍅🍅🍞
+              🍞🍅{lista_ingredientes[1]*2}🍅🍅🍅{lista_ingredientes[0]*3}🍅{lista_ingredientes[1]}🍅🍞
+             🍞🍅{lista_ingredientes[2]*2}🍅🍅{lista_ingredientes[1]*2}🍅{lista_ingredientes[1]}🍅🍅{lista_ingredientes[1]}🍅🍞
             🍞🍅{lista_ingredientes[2]*2}🍅🍅{lista_ingredientes[0]*4}🍅🍅🍅🍅🍅🍞
-            🍞🍅{lista_ingredientes[1]*3}🍅🍅{lista_ingredientes[2]*2}🍅🍅🍅🍅🍅🍅🍞
+            🍞🍅{lista_ingredientes[1]*3}🍅🍅{lista_ingredientes[2]*2}{lista_ingredientes[1]}{lista_ingredientes[1]}🍅{lista_ingredientes[1]}🍅🍅🍞
             🍞🍅{lista_ingredientes[0]*3}🍅🍅🍅{lista_ingredientes[1]*2}🍅🍅🍅🍅🍅🍞
-            🍞🍅{lista_ingredientes[0]*3}🍅🍅{lista_ingredientes[1]*3}🍅🍅🍅🍅🍅🍞
-            🍞🍅{lista_ingredientes[2]*4}🍅🍅🍅{lista_ingredientes[2]*2}🍅🍅🍅🍅🍞
-            🍞🍅{lista_ingredientes[1]*2}🍅🍅{lista_ingredientes[2]*2}🍅🍅🍅🍅🍅🍅🍅🍞
-            🍞🍅{lista_ingredientes[1]*4}🍅🍅{lista_ingredientes[2]*2}🍅🍅🍅🍅🍅🍞
-            🍞🍅{lista_ingredientes[0]*2}🍅{lista_ingredientes[1]*3}🍅🍅🍅🍅🍅🍅🍅🍞
-            🍞🍅{lista_ingredientes[2]*2}🍅🍅{lista_ingredientes[0]*2}🍅🍅🍅🍅🍅🍅🍅🍞
-            🍞🍅{lista_ingredientes[2]*2}🍅{lista_ingredientes[0]*2}🍅🍅🍅🍅🍅🍅🍅🍅🍞
-            🍞🍅{lista_ingredientes[1]*4}🍅🍅{lista_ingredientes[1]*4}🍅🍅🍅🍞
-            🍞🍅{lista_ingredientes[0]*3}🍅{lista_ingredientes[1]*2}🍅🍅🍅🍅🍅🍅🍅🍞
-             🍞🍅{lista_ingredientes[2]*2}🍅🍅{lista_ingredientes[2]*2}🍅🍅🍅🍅🍅🍅🍞
-              🍞🍅{lista_ingredientes[1]*2}🍅🍅🍅{lista_ingredientes[2]*3}🍅🍅🍅🍞
-               🍞🍅{lista_ingredientes[2]*3}🍅🍅{lista_ingredientes[1]*2}🍅🍅🍅🍞
+            🍞🍅{lista_ingredientes[0]*3}🍅🍅{lista_ingredientes[1]*3}🍅🍅{lista_ingredientes[1]}🍅🍅🍞
+            🍞🍅{lista_ingredientes[2]*4}🍅🍅🍅{lista_ingredientes[2]*2}🍅🍅{lista_ingredientes[1]}🍅🍞
+            🍞🍅{lista_ingredientes[1]*2}🍅🍅{lista_ingredientes[2]*2}🍅🍅🍅{lista_ingredientes[1]}🍅🍅🍅🍞
+            🍞🍅{lista_ingredientes[1]*4}🍅🍅{lista_ingredientes[2]*2}🍅{lista_ingredientes[1]}🍅{lista_ingredientes[1]}🍅🍞
+            🍞🍅{lista_ingredientes[0]*2}🍅{lista_ingredientes[1]*3}🍅{lista_ingredientes[1]}🍅🍅{lista_ingredientes[1]}🍅🍅🍞
+            🍞🍅{lista_ingredientes[2]*2}🍅🍅{lista_ingredientes[0]*2}🍅🍅{lista_ingredientes[1]}🍅🍅{lista_ingredientes[1]}🍅🍞
+            🍞🍅{lista_ingredientes[2]*2}🍅{lista_ingredientes[0]*2}🍅🍅{lista_ingredientes[1]}🍅🍅{lista_ingredientes[1]}🍅🍅🍞
+            🍞🍅{lista_ingredientes[1]*4}🍅🍅{lista_ingredientes[1]*4}🍅{lista_ingredientes[1]}🍅🍞
+            🍞🍅{lista_ingredientes[0]*3}🍅{lista_ingredientes[1]*2}🍅{lista_ingredientes[1]}🍅{lista_ingredientes[1]}🍅🍅🍅🍞
+             🍞🍅{lista_ingredientes[2]*2}🍅🍅{lista_ingredientes[2]*2}🍅🍅🍅{lista_ingredientes[1]}🍅🍅🍞
+              🍞🍅{lista_ingredientes[1]*2}🍅🍅🍅{lista_ingredientes[2]*3}🍅{lista_ingredientes[1]}🍅🍞
+               🍞🍅{lista_ingredientes[2]*3}🍅🍅{lista_ingredientes[1]*2}🍅{lista_ingredientes[1]}🍅🍞
                  🍞🍅🍅🍅🍅🍅🍅🍅🍅🍅🍞
                     🍞🍞🍞🍞🍞🍞🍞🍞🍞
         """
